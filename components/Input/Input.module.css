@@ -1,0 +1,15 @@
+.label {
+  color: #0d6efd;
+  margin: 1rem 0 1rem 0;
+}
+.input {
+  color: #0d6efd;
+  margin-bottom: 8px;
+}
+.input::placeholder {
+  color: #0d6efd;
+  font-size: 12px;
+}
+.input:focus {
+  color: #0d6efd;
+}

@@ -1,0 +1,44 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.SideBar {
+  background-color: #ffe1a8;
+  width: 30%;
+}
+
+.mainpage {
+  display: flex;
+  flex-direction: column;
+  background-color: #fffcf2;
+  min-height: 100%;
+  width: 70%;
+}
+.maincontent {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .SideBar {
+    width: 40%;
+  }
+  .mainpage {
+    width: 60%;
+  }
+}
+
+@media (max-width: 600px) {
+  .layout {
+    flex-direction: column-reverse;
+  }
+  .SideBar {
+    width: 100%;
+  }
+  .mainpage {
+    width: 100%;
+    flex: 1;
+  }
+}

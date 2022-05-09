@@ -1,0 +1,29 @@
+.fontSideBar {
+  font-size: 20px;
+  color: #0d6efd;
+}
+.fontNav {
+  font-size: 17px;
+  color: #0d6efd;
+}
+.fontHeader {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  color: #0d6efd;
+}
+.font {
+  color: #0d6efd;
+  margin: 1rem 0 1rem 0;
+}
+@media (max-width: 1200px) {
+  .fontSideBar {
+    font-size: 17px;
+  }
+  .fontNav {
+    font-size: 15px;
+  }
+  .fontHeader {
+    font-size: 22px;
+  }
+}
