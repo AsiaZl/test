@@ -1,8 +1,8 @@
 import { Routes as RouterRoutes, Route } from "react-router-dom";
-import { Categories } from "./pages/Categories";
-import { Favorites } from "./pages/Favorite";
-import { HomePage } from "./pages/HomePage";
-import { NotFoundPage } from "./pages/NotFoundPage";
+import { Categories } from "./src/components/pages/Categories";
+import { Favorites } from "./src/components/pages/Favorite";
+import { HomePage } from "./src/components/pages/HomePage";
+import { NotFoundPage } from "./src/components/pages/NotFoundPage";
 export function Routes() {
   return (
     <RouterRoutes>

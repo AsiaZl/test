@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import App from "./App";
-import { FavoritesContextProvider } from "./store/favorites-context";
+import { FavoritesContextProvider } from "./src/components/store/favorites-context";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(

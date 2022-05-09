@@ -4,7 +4,7 @@ import { Card } from "../components/Card";
 import { Button } from "../components/Button";
 import { CardText } from "reactstrap";
 import font from "./../components/Fonts.module.css";
-import FavoriteContext from "../../../store/favorites-context";
+import FavoriteContext from "../store/favorites-context";
 
 export function Favorites() {
   const favoritesCtx = useContext(FavoriteContext);

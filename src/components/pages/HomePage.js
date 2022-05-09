@@ -1,5 +1,5 @@
 import { Layout } from "../components/maincomponents/Layout";
-import { RandomJoke } from "../../../components/RandomJoke";
+import { RandomJoke } from "../components/RandomJoke";
 
 export function HomePage() {
   return (
